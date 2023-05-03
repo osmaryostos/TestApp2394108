@@ -8,8 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
-
+public class ActivityMain extends AppCompatActivity {
+/*
+Basketball game
+ */
 
     int resultA = 0, resultB = 0;
 
@@ -101,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     team = " NONE =(";
                 }
-                Toast.makeText(MainActivity.this, "Winner is:... " + team, Toast.LENGTH_LONG).show();
+                Toast.makeText(ActivityMain.this, "Winner is:... " + team, Toast.LENGTH_LONG).show();
             }
         });
     }
